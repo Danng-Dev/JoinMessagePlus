@@ -1,0 +1,23 @@
+name: JoinMessagePlus
+prefix: JMP
+version: '${project.version}'
+main: org.cloudns.danng.plugins.joinmessageplus
+api-version: '1.21'
+description: "This plugin adds a custom join message to your server"
+commands:
+    JMP:
+      description: "This is the main command"
+      permission: JMP.cmd
+      permission-message: "You do not have permission for this"
+      usage: /jmp <args>
+      aliases:
+        - JoinMessagePlus
+        - JoinMessageP
+        - JMPlus
+permissions:
+  JMP:
+    description: All access to JMP commands
+    children:
+      - JMP.cmd
+    default: op
+
