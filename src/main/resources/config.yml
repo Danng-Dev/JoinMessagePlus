@@ -1,0 +1,15 @@
+#If you have placeholderApi enabled you can use those placeholders here
+#You can use minecraft colour codes here (e.g &6,&l)
+messages:
+  join: "&f(&2&l+&r&f)&6%player% &fjoined"
+  leave: "&f(&4&l-&r&f)&6%player% &fLeft"
+main:
+  #send message to player on join
+  sendmessagetoplayer: false
+  # message player on leave
+  messageplayerleave: false
+
+  #the message that is sent
+  messageplayer:
+    message: "&6 welcome to the server"
+    leave: "&6You left the server"
